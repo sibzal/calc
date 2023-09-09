@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(205, 0, 0);
+}
+.calc-content{
+    display: flex;
+    width: 500px;
+    padding: 20px;
+    background: #000;
+    text-align: center;
+    justify-content: center;
+}
+
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(205, 0, 0, 0.914);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid  rgb(12, 118, 204);
+}
+
+.btnResult{
+    font-size: 20px;
+    font-weight: 600;
+    background: rgb(205, 0, 0);
+}
+
+h2{
+    color: red;
+}
